@@ -69,7 +69,49 @@ const app = {
       singer: "Maroon 5",
       path: "animals.mp4",
       image: "animals.jpg"
-    }
+    },
+    {
+      name: "Night Changes",
+      singer: "One Direction",
+      path: "night changes.mp4",
+      image: "night changes.jpg"
+    },
+    {
+      name: "Blinding Lights",
+      singer: "The Weeknd", 
+      path: "blinding lights.mp4",
+      image: "blinding lights.jpg"
+    },
+    {
+      name: "Save Your Tears",
+      singer: "The Weeknd and Ariana Grande",
+      path: "save your tears.mp4",
+      image: "save your tears.jpg"
+    },
+    {
+      name: "We Don't Talk Anymore",
+      singer: "Charlie Puth and Selena Gomez",
+      path: "we dont talk anymore.mp4",
+      image: "we dont talk anymore.jpg"
+    },
+    {
+      name: "Attention",
+      singer: "Charlie Puth",
+      path: "attention.mp4",
+      image: "attention.jpg"
+    },
+    {
+      name: "Cheri Cheri Lady",
+      singer: "Modern Talking",
+      path: "cheri cheri lady.mp4",
+      image: "cheri cheri lady.jpg"
+    },
+    {
+      name: "Kiss You",
+      singer: "One Direction",
+      path: "kiss you.mp4",
+      image: "kiss you.jpg"
+    },
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
@@ -312,3 +354,4 @@ const app = {
 };
 
 app.start();
+
