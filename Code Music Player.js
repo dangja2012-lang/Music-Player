@@ -71,12 +71,6 @@ const app = {
       image: "animals.jpg"
     },
     {
-      name: "Night Changes",
-      singer: "One Direction",
-      path: "night changes.mp4",
-      image: "night changes.jpg"
-    },
-    {
       name: "Blinding Lights",
       singer: "The Weeknd", 
       path: "blinding lights.mp4",
@@ -105,12 +99,6 @@ const app = {
       singer: "Modern Talking",
       path: "cheri cheri lady.mp4",
       image: "cheri cheri lady.jpg"
-    },
-    {
-      name: "Kiss You",
-      singer: "One Direction",
-      path: "kiss you.mp4",
-      image: "kiss you.jpg"
     },
   ],
   setConfig: function (key, value) {
@@ -354,4 +342,5 @@ const app = {
 };
 
 app.start();
+
 
