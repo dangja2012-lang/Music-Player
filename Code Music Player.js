@@ -65,28 +65,10 @@ const app = {
       image: "high hopes.jpg"
     },
     {
-      name: "Animals",
-      singer: "Maroon 5",
-      path: "animals.mp4",
-      image: "animals.jpg"
-    },
-    {
       name: "Blinding Lights",
       singer: "The Weeknd", 
       path: "blinding lights.mp4",
       image: "blinding lights.jpg"
-    },
-    {
-      name: "Save Your Tears",
-      singer: "The Weeknd and Ariana Grande",
-      path: "save your tears.mp4",
-      image: "save your tears.jpg"
-    },
-    {
-      name: "We Don't Talk Anymore",
-      singer: "Charlie Puth and Selena Gomez",
-      path: "we dont talk anymore.mp4",
-      image: "we dont talk anymore.jpg"
     },
     {
       name: "Attention",
@@ -342,5 +324,6 @@ const app = {
 };
 
 app.start();
+
 
 
